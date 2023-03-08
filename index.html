@@ -14,32 +14,33 @@
 </head>
 
 <body>
-    <div class="form-group">
+    <div class="">
         <table class="table table-striped">
             <thead>
                 <h1 class="text-center">McDonald's Sales Sheet</h1>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Project Sales</th>
-                    <th scope="col">Hrly Sales</th>
-                    <th scope="col">Comm Sales</th>
-                    <th scope="col">Proj +/-</th>
-                    <th scope="col">Comm</th>
-                    <th scope="col">Crew HRS</th>
-                    <th scope="col">Comm HRS</th>
-                    <th scope="col">HRLY SPMH</th>
-                    <th scope="col">Daily SPMH</th>
+                    <th scope="col" style="min-width: 80px">Project Sales</th>
+                    <th scope="col" style="min-width: 80px">Hrly Sales</th>
+                    <th scope="col" style="min-width: 80px">Comm Sales</th>
+                    <th scope="col" style="min-width: 80px">Proj +/-</th>
+                    <th scope="col" style="min-width: 80px">Comm</th>
+                    <th scope="col" style="min-width: 80px">Crew HRS</th>
+                    <th scope="col" style="min-width: 80px">Comm HRS</th>
+                    <th scope="col" style="min-width: 80px">HRLY SPMH</th>
+                    <th scope="col" style="min-width: 80px">Daily SPMH</th>
                     <th scope="col">#</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">5</th>
-                    <td><input type="tel" class="form-control projectSales" onchange="changeVal()"
+                    <td><input type="tel" class="form-control projectSales col" onchange="changeVal()"
                             onclick="changeVal()"></td>
-                    <td><input type="tel" class="form-control hrlySales" onchange="changeVal()" onclick="changeVal()">
+                    <td><input type="tel" class="form-control hrlySales col" onchange="changeVal()"
+                            onclick="changeVal()">
                     </td>
-                    <td><input type="text" class="form-control commSales"></td>
+                    <td><input type="text" class="form-control commSales col"></td>
                     <td><input type="text" class="form-control proj"></td>
                     <td><input type="text" class="form-control comm"></td>
                     <td><input type="tel" class="form-control crewHrs" onchange="changeVal()" onclick="changeVal()">
